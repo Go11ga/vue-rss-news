@@ -1,0 +1,42 @@
+@import '@/assets/style/scss/_variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+  
+html,
+body {
+    font-family: arial;
+    color: $black;
+    
+    background-color: $bgc;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.preloader {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+@import '@/assets/style/scss/components/rss-header.scss';
+@import '@/assets/style/scss/components/rss-controls.scss';
+@import '@/assets/style/scss/components/rss-newsitem.scss';
+@import '@/assets/style/scss/components/rss-newswrapper.scss';
+@import '@/assets/style/scss/components/rss-404.scss';
+@import '@/assets/style/scss/components/rss-pagination.scss';

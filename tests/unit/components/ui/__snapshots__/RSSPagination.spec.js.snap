@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSPagination.vue snapshot 1`] = `
+<div
+  class="rss-pagination"
+>
+  <rsspaginationitem-stub
+    label="«"
+    size="big"
+    value="1"
+  />
+   
+  <rsspaginationitem-stub
+    label="‹"
+    size="big"
+    value="1"
+  />
+   
+  <rsspaginationitem-stub
+    active="true"
+    label="1"
+    value="1"
+  />
+  <rsspaginationitem-stub
+    label="2"
+    value="2"
+  />
+  <rsspaginationitem-stub
+    label="3"
+    value="3"
+  />
+  <rsspaginationitem-stub
+    label="4"
+    value="4"
+  />
+  <rsspaginationitem-stub
+    label="5"
+    value="5"
+  />
+  <rsspaginationitem-stub
+    label="6"
+    value="6"
+  />
+  <rsspaginationitem-stub
+    label="7"
+    value="7"
+  />
+  <rsspaginationitem-stub
+    label="8"
+    value="8"
+  />
+   
+  <rsspaginationitem-stub
+    label="›"
+    size="big"
+    value="2"
+  />
+   
+  <rsspaginationitem-stub
+    label="»"
+    size="big"
+    value="8"
+  />
+</div>
+`;

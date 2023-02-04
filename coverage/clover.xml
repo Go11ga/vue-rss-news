@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1662887263515" clover="3.2.0">
+  <project timestamp="1662887263515" name="All files">
+    <metrics statements="85" coveredstatements="77" conditionals="30" coveredconditionals="30" methods="38" coveredmethods="34" elements="153" coveredelements="141" complexity="0" loc="85" ncloc="85" packages="9" files="21" classes="21"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="App.vue" path="D:\web\vue_2\vue-rss-news\src\App.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="18" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5"/>
+      <file name="RSSControls.vue" path="D:\web\vue_2\vue-rss-news\src\components\RSSControls.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="28" type="stmt"/>
+      </file>
+      <file name="RSSHeader.vue" path="D:\web\vue_2\vue-rss-news\src\components\RSSHeader.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="31" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="RSSNewsItem.vue" path="D:\web\vue_2\vue-rss-news\src\components\RSSNewsItem.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="36" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="RSSNewsWrapper.vue" path="D:\web\vue_2\vue-rss-news\src\components\RSSNewsWrapper.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="45" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="RSSSprite.vue" path="D:\web\vue_2\vue-rss-news\src\components\RSSSprite.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="RSSPagination.vue" path="D:\web\vue_2\vue-rss-news\src\components\ui\RSSPagination.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="48" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="RSSPaginationItem.vue" path="D:\web\vue_2\vue-rss-news\src\components\ui\RSSPaginationItem.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="33" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mocks">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="mosNews.js" path="D:\web\vue_2\vue-rss-news\src\mocks\mosNews.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="newsChannel.js" path="D:\web\vue_2\vue-rss-news\src\mocks\newsChannel.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+      </file>
+      <file name="riaNews.js" path="D:\web\vue_2\vue-rss-news\src\mocks\riaNews.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.router">
+      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="index.js" path="D:\web\vue_2\vue-rss-news\src\router\index.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.store">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="D:\web\vue_2\vue-rss-news\src\store\index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.store.modules">
+      <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="8" methods="16" coveredmethods="16"/>
+      <file name="errors.js" path="D:\web\vue_2\vue-rss-news\src\store\modules\errors.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="news.js" path="D:\web\vue_2\vue-rss-news\src\store\modules\news.js">
+        <metrics statements="31" coveredstatements="31" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="24" coveredstatements="24" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
+      <file name="convertNews.js" path="D:\web\vue_2\vue-rss-news\src\utils\convertNews.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="23" count="30" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+      <file name="pagiantionOptions.js" path="D:\web\vue_2\vue-rss-news\src\utils\pagiantionOptions.js">
+        <metrics statements="15" coveredstatements="15" conditionals="9" coveredconditionals="9" methods="4" coveredmethods="4"/>
+        <line num="2" count="54" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="21" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="54" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.views">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="RSS404.vue" path="D:\web\vue_2\vue-rss-news\src\views\RSS404.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+      <file name="RSSAll.vue" path="D:\web\vue_2\vue-rss-news\src\views\RSSAll.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+      <file name="RSSMos.vue" path="D:\web\vue_2\vue-rss-news\src\views\RSSMos.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+      <file name="RSSRia.vue" path="D:\web\vue_2\vue-rss-news\src\views\RSSRia.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

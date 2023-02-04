@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSPaginationItem.vue snapshot 1`] = `
+<router-link-stub
+  ariacurrentvalue="page"
+  class="rss-pagination__link rss-pagination__link--big rss-pagination__link--active"
+  event="click"
+  tag="a"
+  to="/null/1"
+>
+  
+        1
+    
+</router-link-stub>
+`;

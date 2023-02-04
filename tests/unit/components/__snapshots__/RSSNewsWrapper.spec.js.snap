@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSNewsWrapper.vue snapshot 1`] = `
+<div
+  class="rss-newswrapper"
+>
+  <rssnewsitem-stub
+    model="[object Object]"
+  />
+  <rssnewsitem-stub
+    model="[object Object]"
+  />
+   
+  <rsspagination-stub
+    currentpage="NaN"
+    totalcount="1"
+  />
+</div>
+`;

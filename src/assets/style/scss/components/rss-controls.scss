@@ -1,0 +1,61 @@
+.rss-controls {
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__link {
+        margin-right: 20px;
+
+        font-weight: 700;
+        color: $black;
+
+        text-decoration: none;
+
+        transition: color .2s linear;
+
+        &:hover {
+            color: $blue;
+        }
+
+        &--active {
+            color: $blue;
+        }
+    }
+
+    &__btn {
+        width: 18px;
+        height: 18px;
+
+        border: none;
+        background-color: transparent;
+
+        cursor: pointer;
+
+        &:last-child {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            .rss-controls__icon {
+                fill: $blue;
+            }
+        }
+
+        &--active {
+            .rss-controls__icon {
+                fill: $blue;
+            }
+        }
+    }
+
+    &__icon {
+        width: inherit;
+        height: inherit;
+
+        fill: #C4C4C4;
+
+        transition: fill .2s linear;
+    }
+}

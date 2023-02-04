@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSNewsItem.vue snapshot 1`] = `
+<div
+  class="rss-newsitem rss-newsitem--list"
+>
+  <div
+    class="rss-newsitem__inner"
+  >
+    <div
+      class="rss-newsitem__header"
+    >
+      <a
+        class="rss-newsitem__title"
+        href="testLink"
+        target="_blank"
+      >
+        
+                    testTitle
+                
+      </a>
+    </div>
+     
+    <div
+      class="rss-newsitem__content"
+    >
+      <img
+        class="rss-newsitem__img"
+        src="testImage"
+      />
+       
+      <div
+        class="rss-newsitem__text"
+      >
+        
+                    testDescription
+                
+      </div>
+       
+      <button
+        class="rss-newsitem__btn"
+      >
+        
+                    Подробнее
+                
+      </button>
+    </div>
+     
+    <div
+      class="rss-newsitem__footer"
+    >
+      <a
+        class="rss-newsitem__channel-link"
+        href="testChannelLink"
+        target="_blank"
+      >
+        
+                    testChannelLink
+                
+      </a>
+       
+      <div
+        class="rss-newsitem__date"
+      >
+        
+                    Invalid Date Invalid Date
+                
+      </div>
+    </div>
+  </div>
+</div>
+`;

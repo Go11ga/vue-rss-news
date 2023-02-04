@@ -1,0 +1,14 @@
+.rss-newswrapper {
+    margin: 0 -10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__notfound {
+        padding: 100px 0;
+        margin: 0 auto;
+
+        color: $black;
+    }
+}

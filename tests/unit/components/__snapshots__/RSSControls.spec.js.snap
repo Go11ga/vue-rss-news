@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSControls.vue snapshot 1`] = `
+<div
+  class="rss-controls"
+>
+  <div
+    class="rss-controls__item"
+  >
+    <router-link-stub
+      class="rss-controls__link"
+      to="/all/1"
+    >
+      
+                All
+            
+    </router-link-stub>
+     
+    <router-link-stub
+      class="rss-controls__link rss-controls__link--active"
+      to="/mos/1"
+    >
+      
+                Mos
+            
+    </router-link-stub>
+     
+    <router-link-stub
+      class="rss-controls__link"
+      to="/ria/1"
+    >
+      
+                RIA
+            
+    </router-link-stub>
+  </div>
+   
+  <div
+    class="rss-controls__item"
+  >
+    <button
+      class="rss-controls__btn"
+    >
+      <svg
+        class="rss-controls__icon"
+      >
+        <use
+          xlink:href="#icon_list"
+        />
+      </svg>
+    </button>
+     
+    <button
+      class="rss-controls__btn rss-controls__btn--active"
+    >
+      <svg
+        class="rss-controls__icon"
+      >
+        <use
+          xlink:href="#icon_grid"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

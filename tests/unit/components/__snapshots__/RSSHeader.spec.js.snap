@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSSHeader.vue рендеринг snapshot 1`] = `
+<div
+  class="rss-header"
+>
+  <div
+    class="rss-header__item"
+  >
+    <h1
+      class="rss-header__text"
+    >
+      
+                Список новостей
+            
+    </h1>
+     
+    <button
+      class="rss-header__refresh"
+    >
+      <img
+        alt="refresh"
+        class="rss-header__img"
+        src="@/assets/style/images/refresh.png"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="rss-header__item"
+  >
+    <div
+      class="rss-header__input-container"
+    >
+      <input
+        class="rss-header__input"
+      />
+       
+      <button
+        class="rss-header__btn"
+      >
+        <img
+          alt="search"
+          src="@/assets/style/images/search.png"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

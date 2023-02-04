@@ -1,0 +1,116 @@
+.rss-header {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+	border-bottom: 1px solid $grey;
+
+    &__item {
+        display: flex;
+		justify-content: flex-start;
+		align-items: center;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: $point_md) {
+            width: 100%;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__text {
+        font-size: 2.25rem;
+        font-weight: 700;
+    
+        @media screen and (max-width: $point_sm) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__refresh {
+        margin-left: 30px;
+		width: 40px;
+		height: 40px;
+
+        border: none;
+		border-radius: 50%;
+		background: $white;
+		box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+
+		position: relative;
+
+		transition: all .2s linear;
+
+		&:hover {
+			cursor: pointer;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+
+        @media screen and (max-width: $point_sm) {
+            margin-left: 0;
+        }
+    }
+
+    &__img {
+        position: absolute;
+
+		top: 50%;
+		left: 50%;
+		z-index: 1;
+		transform: translate(-50%, -50%);
+    }
+
+    &__input-container {
+		position: relative;
+
+        @media screen and (max-width: $point_sm) {
+            width: 100%;
+        }
+	}
+
+    &__input {
+        width: 320px;
+        height: 40px;
+        padding-left: 20px;
+
+        background-color: $white;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+        border: 0;
+
+        &:focus {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            outline: 0;
+        }
+
+        @media screen and (max-width: $point_sm) {
+            width: 100%;
+        }
+    }
+
+    &__btn {
+        width: 40px;
+        height: 40px;
+
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        outline: 0;
+
+        position: absolute;
+
+        top: 50%;
+        right: 0;
+        z-index: 1;
+        transform: translate(0, -50%);
+
+        &:hover {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
